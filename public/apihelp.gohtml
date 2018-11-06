@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Cheese API</title>
+    <meta name="description" content="" />
+    <link href="assets/css/styles.css" rel="stylesheet">
+    <link href="assets/css/gradients.css" rel="stylesheet">
+</head>
+
+<body class="">
+<div class="wrapper">
+
+    <header>
+        <nav class="website-nav">
+            <ul>
+                <li><a href="https://zk1m2kjj28.execute-api.us-east-1.amazonaws.com/Stage/" target="_self">Stage</a></li>
+                <li><a href="https://zk1m2kjj28.execute-api.us-east-1.amazonaws.com/Stage/api/words/">Query All Words</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="message">
+        <div class="text">
+            <h1>Chese API - UI</h1>
+            <h2>API Help Page</h2>
+            <form action="https://zk1m2kjj28.execute-api.us-east-1.amazonaws.com/Stage/api/words/" method="post" target="_self">
+                Post Word: <input type="text" name="word"><br>
+                <input type="submit" value="Submit">
+            </form>
+            <h3>Query Word: Substitute Number for {wordId} -> https://zk1m2kjj28.execute-api.us-east-1.amazonaws.com/Stage/api/words/{wordId}</h3>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p class="footer-contents">Designed and developed by <a href="https://aws.amazon.com/careers/devtools-jobs/">Cheese</a> in NYC.</p>
+</footer>
+
+<script src="assets/js/set-background.js"></script>
+</body>
+
+</html>
